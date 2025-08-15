@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yusuf Bello's portfolio website showcasing web development, WordPress, and branding projects under Belloys.">
+  <meta name="keywords" content="Yusuf Bello, Belloys, web developer, WordPress developer, branding, portfolio, web design, SEO">
+  <meta name="author" content="Yusuf Bello">
+  <meta property="og:title" content="Belloys | Yusuf Bello - Web Developer & Branding Expert">
+  <meta property="og:description" content="Explore Yusuf Bello's portfolio of web development, WordPress, and branding projects that connect and convert.">
+  <meta property="og:image" content="images/your-picture.jpg">
+  <meta property="og:url" content="https://yusuf-bello.github.io">
+  <meta property="og:type" content="website">
+  <title>Belloys | Yusuf Bello - Web Developer & Branding Expert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #ff0f39;
+      --teal: #008080;
+      --light-bg: #e6c2bf;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+    .animate-hero {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .section-gradient {
+      background: linear-gradient(to bottom, rgba(230, 194, 191, 0.1), rgba(230, 194, 191, 0.3));
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navigation -->
+  <nav class="bg-[var(--primary)] text-white py-4 fixed w-full top-0 z-10 shadow-lg">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+      <a href="#" class="text-3xl font-bold">Belloys</a>
+      <div class="space-x-6 text-lg">
+        <a href="#home" class="hover:text-[var(--secondary)] transition">Home</a>
+        <a href="#about" class="hover:text-[var(--secondary)] transition">About</a>
+        <a href="#services" class="hover:text-[var(--secondary)] transition">Services</a>
+        <a href="#projects" class="hover:text-[var(--secondary)] transition">Projects</a>
+        <a href="#contact" class="hover:text-[var(--secondary)] transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="pt-20">
+    <!-- Hero Section -->
+    <header class="bg-[var(--primary)] text-white py-24 text-center animate-hero">
+      <img src="images/your-picture.jpg" alt="Yusuf Bello, Web Developer and Branding Expert" class="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-[var(--light-bg)]">
+      <h1 class="text-5xl md:text-6xl font-bold max-w-4xl mx-auto">Building Bold Websites That Bring Brands to Life</h1>
+      <p class="text-xl md:text-2xl mt-4 max-w-3xl mx-auto">I’m Bello Yusuf — a Web Developer & Branding Expert helping businesses create sleek, fast, and trust-driven websites that connect and convert.</p>
+      <div class="mt-8 space-x-4">
+        <a href="#contact" class="inline-block bg-[var(--secondary)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--teal)] transition">Let’s Work Together</a>
+        <a href="#projects" class="inline-block bg-[var(--teal)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--secondary)] transition">View My Work</a>
+      </div>
+    </header>
+
+    <!-- Services Preview -->
+    <div class="py-20 px-6 section-gradient">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">What I Offer</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Web Design & Development</h3>
+            <p class="text-gray-600">Custom websites with WordPress or modern frameworks.</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Visual Branding & Identity</h3>
+            <p class="text-gray-600">Logos and visuals that define your brand’s story.</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Strategy-Driven Layouts</h3>
+            <p class="text-gray-600">Designs that align with your business goals.</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Conversion Optimization</h3>
+            <p class="text-gray-600">Websites optimized to turn visitors into customers.</p>
+          </div>
+        </div>
+        <a href="#services" class="mt-10 inline-block bg-[var(--secondary)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--teal)] transition">View Full Services</a>
+      </div>
+    </div>
+
+    <!-- Portfolio Highlight -->
+    <div class="py-20 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-[var(--primary)] text-center mb-8">Featured Project</h2>
+        <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition flex flex-col md:flex-row items-center">
+          <img src="images/project-placeholder.jpg" alt="D-Global Growthfield Website" class="w-full md:w-1/2 rounded-lg mb-6 md:mb-0 md:mr-8 object-cover h-64">
+          <div class="text-left">
+            <h3 class="text-2xl font-semibold text-[var(--teal)] mb-2">D-Global Growthfield Website</h3>
+            <p class="text-gray-600 mb-4">A full redesign focused on clarity, speed, and trust.</p>
+            <a href="#" class="text-[var(--secondary)] font-semibold hover:underline">Case Study →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Short About Snippet -->
+    <div class="py-20 px-6 section-gradient">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl italic text-gray-700">I'm not just a web developer — I build digital homes for brands. With a background in branding, marketing, and coding, I help businesses show up online with confidence.</p>
+        <a href="#about" class="mt-8 inline-block bg-[var(--secondary)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--teal)] transition">More About Me</a>
+      </div>
+    </div>
+
+    <!-- Client CTA Section -->
+    <div class="py-20 px-6 text-center bg-[var(--teal)] text-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold mb-6">Ready to Elevate Your Online Presence?</h2>
+        <p class="text-xl mb-8">Let's talk about building you a brand-powered website that works.</p>
+        <a href="#contact" class="inline-block bg-[var(--secondary)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--primary)] transition">Let’s Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">About Bello Yusuf</h2>
+      <p class="text-lg text-gray-600">I'm Yusuf Bello, the creative force behind Belloys. As a web developer and branding expert, I specialize in crafting WordPress websites, custom themes, and visual identities that make brands stand out. My approach combines technical expertise with strategic design to create websites that are fast, accessible, and conversion-focused. Whether it’s a sleek portfolio or a robust e-commerce platform, I’m here to bring your vision to life.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 section-gradient">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Web Design & Development</h3>
+          <p class="text-gray-600">Custom WordPress websites, responsive front-end interfaces, and robust back-end solutions using modern frameworks.</p>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Visual Branding & Identity</h3>
+          <p class="text-gray-600">Creating logos, color schemes, and visual assets that define your brand’s unique story.</p>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Strategy-Driven Layouts</h3>
+          <p class="text-gray-600">Designing layouts that align with your business goals and user needs for maximum impact.</p>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Conversion Optimization</h3>
+          <p class="text-gray-600">Optimizing websites for user engagement and conversions through data-driven design.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio/Projects -->
+  <section id="projects" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Portfolio</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <img src="images/project-placeholder.jpg" alt="D-Global Growthfield Website" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">D-Global Growthfield Website</h3>
+          <p class="text-gray-600 mb-4">A full redesign focused on clarity, speed, and trust.</p>
+          <a href="#" class="text-[var(--secondary)] font-semibold hover:underline">Case Study →</a>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <img src="images/project-placeholder.jpg" alt="WooCommerce Store" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">WooCommerce Store</h3>
+          <p class="text-gray-600 mb-4">A custom e-commerce site built with WordPress and WooCommerce.</p>
+          <a href="#" class="text-[var(--secondary)] font-semibold hover:underline">View Project</a>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+          <img src="images/project-placeholder.jpg" alt="Branding Project" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold text-[var(--teal)] mb-2">Branding Project</h3>
+          <p class="text-gray-600 mb-4">A complete visual identity for a startup, including logo and website.</p>
+          <a href="#" class="text-[var(--secondary)] font-semibold hover:underline">View Project</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (Optional) -->
+  <section id="testimonials" class="py-20 px-6 section-gradient">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Testimonials</h2>
+      <p class="text-lg text-gray-600">Coming soon! Client feedback will be added to showcase the impact of Belloys’ work.</p>
+    </div>
+  </section>
+
+  <!-- Blog (Optional) -->
+  <section id="blog" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Blog</h2>
+      <p class="text-lg text-gray-600">Coming soon! Stay tuned for WordPress tutorials, branding tips, and web development insights from Belloys.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 section-gradient">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-[var(--primary)] mb-8">Contact Belloys</h2>
+      <p class="text-lg text-gray-600 mb-8">Let’s collaborate to bring your brand to life!</p>
+      <form action="https://formspree.io/f/your-formspree-id" method="POST" class="max-w-lg mx-auto space-y-6">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-4 border rounded-lg focus:outline-none focus:border-[var(--teal)] text-gray-600" aria-label="Your Name">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 border rounded-lg focus:outline-none focus:border-[var(--teal)] text-gray-600" aria-label="Your Email">
+        <textarea name="message" placeholder="Your Message" required class="w-full p-4 border rounded-lg focus:outline-none focus:border-[var(--teal)] text-gray-600" rows="6" aria-label="Your Message"></textarea>
+        <button type="submit" class="bg-[var(--secondary)] text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-[var(--teal)] transition">Send Message</button>
+      </form>
+      <div class="mt-8 space-y-4 text-lg">
+        <p>Email: <a href="mailto:your.email@example.com" class="text-[var(--secondary)] hover:underline">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yusuf-bello" class="text-[var(--secondary)] hover:underline">linkedin.com/in/yusuf-bello</a></p>
+        <p>GitHub: <a href="https://github.com/yusuf-bello" class="text-[var(--secondary)] hover:underline">github.com/yusuf-bello</a></p>
+        <p>Twitter: <a href="https://twitter.com/yusuf_bello" class="text-[var(--secondary)] hover:underline">twitter.com/yusuf_bello</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--primary)] text-white py-10 text-center">
+    <p class="text-lg">&copy; 2025 Belloys | Yusuf Bello. All rights reserved.</p>
+    <div class="mt-4 space-x-6 text-lg">
+      <a href="https://github.com/yusuf-bello" class="text-[var(--light-bg)] hover:underline">GitHub</a>
+      <a href="https://linkedin.com/in/yusuf-bello" class="text-[var(--light-bg)] hover:underline">LinkedIn</a>
+      <a href="https://twitter.com/yusuf_bello" class="text-[var(--light-bg)] hover:underline">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
